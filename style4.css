@@ -1,0 +1,53 @@
+/* First letter of About Paragraph */
+.post h2 + p::first-letter {
+    color: red;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+/* Text align of body */
+* .case {
+    text-align: center;
+}
+/* About Paragraph */
+.post span {
+    color: red;
+    font-weight: bold;
+}
+/* Text align of download */
+* .fact {
+    text-align: center;
+} 
+/* First letter of download paragraph */
+.fact h2 + p::first-letter {
+    color: yellow;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+/* Styling of download link */
+.fact a[target] {
+    color: green;
+    font-style: italic;
+    text-decoration: none;
+}
+/* Image size change */
+#group2 {
+   width: 400px;
+}
+.group1 {
+    width: 300px;
+}
+/* Styling of link at the head */
+.menu a {
+    color: limegreen;
+    font-style: italic;
+    text-decoration: none;
+}
+/* List style type */
+.blog{
+    list-style-type: lower-alpha;
+}
+.care{
+    list-style-type: lower-alpha;
+}
